@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Press Start 2P", sans-serif;
+}
+#myCanvas {
+  background-color: black;
+  display: block;
+  margin-left: 31%;
+  margin-top: 5%;
+}
+
+#gameName {
+  margin-left: 41%;
+  margin-top: 2%;
+  color: rgb(7, 245, 7);
+}
+
+.difficutlyButton {
+  transition-duration: 0.4s;
+  font-size: 40px;
+}
+
+.button1 {
+  background-color: white;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 40px;
+}
+.button1:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.buttonnew {
+  background-color: white;
+  font-family: "Press Start 2P", sans-serif;
+
+  font-size: 40px;
+}
+.buttonnew:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+#play_button {
+  transition: 0.5s ease;
+  /* top: 82%;
+  left: 33%; */
+}
+
+.newbtn {
+  padding-left: 32%;
+}
+
+.newbtnstart {
+  padding-top: 60px;
+  padding-left: 32%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.buttonnewstart {
+  background-color: white;
+  font-family: "Press Start 2P", sans-serif;
+
+  font-size: 40px;
+}
