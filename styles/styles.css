@@ -1,217 +1,194 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Personal Porofilaooo</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <div class="toggle">
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#fun">Fun</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="banner paddingtop" id="home">
+      <div class="textBx"></div>
+      <h2>Hello, I'm<br /><span>Uzair</span></h2>
+      <h3>This is my Data science portfolio</h3>
+      <a href="#aboutme" class="btn">About Me </a>
+    </section>
+    <section class="about" id="aboutme">
+      <div class="heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="content">
+        <div class="contentBx w50">
+          <h3>Hi this is my Data Science/ Data Analytics Portfolio</h3>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-section {
-  padding: 100px;
-}
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum<br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. excepteur sint occaecat cupidatat non proident, sunt in
+          </p>
+        </div>
+        <div class="w30">
+          <img
+            src="cutetaco.jpg"
+            width="400"
+            height="400"
+            class="img"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="heading white">
+        <h2>Projects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="content">
+        <div class="projectsBx">
+          <img src="dataviz.jpg" class="img" width="280" />
 
-.paddingtop {
-  padding-top: 285px;
-}
+          <h2>Data Visualization</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim
+          </p>
+        </div>
+        <div class="projectsBx">
+          <img src="dataviz.jpg" class="img" width="280" />
 
-.banner {
-  position: relative;
-  min-height: 100vh;
-  background: url("banner.jpg");
-  background-size: cover;
-  background-position: right;
-  display: flexbox;
-  justify-content: space-between;
-  align-items: center;
-}
+          <h2>Machine Learning</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim
+          </p>
+        </div>
+        <div class="projectsBx">
+          <img src="dataviz.jpg" class="img" width="280" />
 
-.banner h2 {
-  font-size: 3em;
-  color: #fff;
-  font-weight: 300;
-  line-height: 1.5em;
-}
+          <h2>Data Wrangling</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim
+          </p>
+        </div>
+        <div class="projectsVizBx">
 
-.banner h2 span {
-  font-size: 1.5em;
-  font-weight: 700;
-}
+            <h2><br><br>Project - 1 : Covid-19 Vaccination India </h2>
+            <p>
+              This is a basic distribution of Indias Covid-19 Vaccination Drive. Please don't judge so soon am a newby :p <br><br>
+              <a
+          href="https://public.tableau.com/views/Covid-19VaccinationIndia/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link"
+        >
+          <img
+            id="viz_1"
+            alt="The Startup Quadrant "
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid-19VaccinationIndia&#47;Dashboard1&#47;1_rss.png"
+            style="border: none"
+            class="img"
+            width="900"
+          />
+        </a>
+            </p>
+          </div>
+          <div class="projectsVizBx">
+            <img class="img" width="900"/>
+          </div>
 
-.banner h3 {
-  font-size: 1.5em;
-  color: #fff;
-  font-weight: 500;
-  line-height: 1.5em;
-}
+          <div class="projectsVizBx">
+            <img class="img" width="900"/>
+          </div>
 
-.btn {
-  position: relative;
-  background: #2196f3;
-  display: inline-block;
-  color: #fff;
-  margin-top: 20px;
-  padding: 10px 30px;
-  font-style: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-weight: 500;
-}
+          <div class="projectsVizBx">
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  /* padding: 40px 100px; */
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 20px;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.5s;
-}
+            <h2><br><br>Project - 2 : Covid-19 Barchart Race </h2>
+            <p>
+              This is a basic Barchart Race of Covid-19 Cases Worldwide. Please don't judge so soon am a newby :p <br><br>
+              <a
+          href="https://public.tableau.com/shared/GTM6FSYZ3?:display_count=y&:origin=viz_share_link"
+        >
+          <img
+            id="viz_1"
+            alt="The Covid Barchart"
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GT&#47;GTM6FSYZ3&#47;1_rss.png"
+            style="border: none"
+            class="img"
+            width="900"
+          />              
+        </a>
+            </p>
+          </div>
+          
+      </div>
 
-header.sticky {
-  background: #fff;
-  padding: 20px 100px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-}
 
-header .logo {
-  color: #fff;
-  font-size: 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
+     
+    </div>
+    </section>
 
-header.sticky .logo {
-  color: #111;
-}
+    <section class="Fun" id="fun">
+        <div class="heading">
+          <h2>Fun</h2>
+          <p>1st player uses I K  keys and second uses W and S</p>
+        </div>
+        <div >
+          <div class="FunBx">
+            <link href="styles2.css" rel="stylesheet" />
+            <div>
+                <canvas
+                  id="myCanvas"
+                  width="700px"
+                  height="400px"
+                  margin="100px"
+                  
+                ></canvas>
+              </div>
+                <button
+                  id="play_button"
+                  class="button1 hidden"
+                  onclick="expertLevel()"
+                >
+                  Expert Level
+                </button> 
+                
+                
+                <div class="newbtn"><button id="newexpertbutton" class="buttonnew" onclick=expertLevel()>
+                    Expert Level New
+                </button></div>
+                <div class="newbtnstart"><button id="newstartbutton" class="buttonnewstart buttonnew" onclick=startreset()>
+                    Start
+                </button></div>
+              <script src="script.js"></script>
+          </div>
+        </div>
+      </section>
 
-header ul {
-  position: relative;
-  display: flex;
-}
-
-header ul li {
-  position: relative;
-  list-style: none;
-}
-
-header ul li a {
-  position: relative;
-  display: inline-block;
-  font-size: 20px;
-  margin: 0 15px;
-  color: #fff;
-  text-decoration: none;
-}
-
-header ul li a:hover {
-  box-shadow: 0 5px 20px rgba(10, 218, 233, 0.932);
-}
-
-header.sticky ul li a {
-  color: #111;
-}
-.heading {
-  width: 100;
-  text-align: center;
-  margin-bottom: 30px;
-  color: #111;
-}
-
-.heading h2 {
-  font-weight: 600;
-  font-size: 30px;
-}
-
-.content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contentBx {
-  padding-right: 30px;
-}
-
-.contentBx h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.w50 {
-  min-width: 50%;
-}
-
-.w30 {
-  min-width: 30%;
-}
-
-img {
-  max-width: 100%;
-}
-
-#dataviz_1 {
-  padding-left: 5px;
-  padding-top: 50px;
-}
-
-#viz_1:hover {
-  -moz-box-shadow: 0 0 10px #ccc;
-  -webkit-box-shadow: 0 0 10px #ccc;
-  box-shadow: 0 0 10px #ccc;
-}
-
-.projects {
-  background: #111;
-}
-
-.heading.white {
-  color: #fff;
-}
-
-.projects .content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.projects .content .projectsBx {
-  /* padding: 40px 20px; */
-  background: #222;
-  color: #fff;
-  max-width: 417px;
-  margin: 10px;
-  text-align: center;
-  transition: 0.5s;
-}
-
-.projects .content .projectsVizBx {
-  /* padding: 40px 20px; */
-
-  color: #fff;
-  max-width: 418px;
-  margin: 10px;
-  text-align: center;
-  transition: 0.5s;
-}
-
-.projects .content .projectsBx:hover {
-  background: #2196f3;
-}
-
-.projects .content .projectsBx img {
-  max-width: 200px;
-}
-
-/* .projects .content .projectsBx h2 {
-  font-size: 20px;
-  font-weight: 600;
-} */
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
